@@ -1,10 +1,6 @@
 # 📚 LLM Zoomcamp 2025 – Homework y Apuntes
 
-Repositorio de seguimiento de tareas y notas del LLM Zoomcamp organizado por [DataTalks.Club](https://datatalks.club/).  
-
-# 🤖 LLM Zoomcamp 2025 – Apuntes, Homeworks y Proyecto
-
-Este repositorio contiene mis avances, notebooks y apuntes desarrollados como parte del curso **[LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)** de **[DataTalks.Club](https://datatalks.club/)**.
+Este repositorio contiene el seguimiento de tareas, notebooks y apuntes desarrollados como parte del curso **[LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)** de **[DataTalks.Club](https://datatalks.club/)**.
 
 📅 **Duración**: 10 semanas  
 🎯 **Objetivo**: Aprender a construir aplicaciones reales con Modelos de Lenguaje (LLMs), utilizando técnicas como RAG, búsqueda vectorial, evaluación, monitoreo y buenas prácticas de producción.
