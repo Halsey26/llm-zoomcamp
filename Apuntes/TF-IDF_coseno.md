@@ -1,5 +1,5 @@
 
-## 0. Previo
+## 0. Conceptos Claves
 
 **Desventajas con otros métodos:**
 El método de conteo, es un método donde la asignación del valor depende la frecuencia de la palabra y por ende de su importancia **pero** no toma en consideración la relevancia de las palabras en sí. 
@@ -13,6 +13,7 @@ Por ejemplo:
 
 ### Documentos
 
+### Chunk
 
 ## 1. Teoría de TF-IDF 
 - TF(Term frequency): frecuencia de una palabra en un documento.
