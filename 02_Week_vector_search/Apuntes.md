@@ -48,7 +48,7 @@ Notas:
 - 
 
 ### Pasos realizados en este módulo
-1. Setup de Qdrant en un contenedor docker e instalación de librerías en el enviorement [set_up_qdrant.md]()
+1. Setup de Qdrant en un contenedor docker e instalación de librerías en el enviorement [set_up_qdrant.md](02_Week_vector_search/set_up_qdrant.md)
 
 2. Primeros pasos para utilizar Vector Search con Qdrant [vector_search_qdrant.ipynb]()
     - Importanción de librerias 
