@@ -50,6 +50,11 @@ Notas:
 1. Setup de Qdrant en un contenedor docker e instalación de librerías en el enviorement [set_up_qdrant.md]()
 
 2. Primeros pasos para utilizar Vector Search con Qdrant [vector_search_qdrant.ipynb]()
+    - Importanción de librerias
+    - Almacenamiento del dataset a trabajar
+    - Análisis de dataset: estructura, tipo de data, etc
+    - Se definen los campos para semantic search y para almacenar en la metadata
+    - 
 
 3. 
 
@@ -59,3 +64,4 @@ Notas:
 - [Modulo 2 - LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search)
 - [Notebook sematic_search](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/02-vector-search/sematic_search.ipynb)
 - [Porqué Qdrant?](https://qdrant.tech/articles/dedicated-vector-search/)
+- [Documentación FastEmbed](https://github.com/qdrant/fastembed)
