@@ -9,7 +9,8 @@ Permite realizar la búsqueda más rápida.
 ## 1. ¿Qué son los Embeddings?
 
 - Son representaciones vectoriales de datos (texto, imagen, video, etc)
-- Capturan las características semánticas 
+- Se utiliza técnicas de aprendizaje automático.
+- Capturan las características semánticas (el significado de un texto)
 
 ## 2. Vector Search
 Mide la distancia entre el vector del query y los vectores de los documentos.
@@ -63,5 +64,7 @@ Notas:
 - [Ventajas vector_search]()
 - [Modulo 2 - LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search)
 - [Notebook sematic_search](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/02-vector-search/sematic_search.ipynb)
-- [Porqué Qdrant?](https://qdrant.tech/articles/dedicated-vector-search/)
+- [¿Porqué Qdrant?](https://qdrant.tech/articles/dedicated-vector-search/)
+- [Documentación Qdrant](https://qdrant.tech/documentation/concepts/)
 - [Documentación FastEmbed](https://github.com/qdrant/fastembed)
+- [Documentación del modelo usado para embedding](https://huggingface.co/jinaai/jina-embeddings-v2-small-en)
