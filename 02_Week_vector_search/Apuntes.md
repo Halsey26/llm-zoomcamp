@@ -51,11 +51,14 @@ Notas:
 1. Setup de Qdrant en un contenedor docker e instalación de librerías en el enviorement [set_up_qdrant.md]()
 
 2. Primeros pasos para utilizar Vector Search con Qdrant [vector_search_qdrant.ipynb]()
-    - Importanción de librerias
+    - Importanción de librerias 
+    - Creación del cliente con qdrant
     - Almacenamiento del dataset a trabajar
     - Análisis de dataset: estructura, tipo de data, etc
     - Se definen los campos para semantic search y para almacenar en la metadata
-    - 
+    - Evaluación de modelos de embeddings en base a los campos definidos
+    - Configuración con Qdrant
+        - Se crea la colección
 
 3. 
 
