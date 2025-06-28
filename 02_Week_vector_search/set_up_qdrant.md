@@ -21,6 +21,8 @@ La línea de ``` -v "$(pwd)...``` permite que la data sea persistente. Si se rei
 
 2. Después estará habilitada en http://127.0.0.1:6333/dashboard
 
+3. Luego de finalizar, para volver a activar
+---
 ### Instalación de librerías
 
 ```
