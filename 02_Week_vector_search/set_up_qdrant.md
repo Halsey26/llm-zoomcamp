@@ -21,7 +21,10 @@ La línea de ``` -v "$(pwd)...``` permite que la data sea persistente. Si se rei
 
 2. Después estará habilitada en http://127.0.0.1:6333/dashboard
 
-3. Luego de finalizar, para volver a activar
+3. Para parar el contenedor o reiniciarlo `docker stop qdrant`
+4. Para parar reiniciarlo `docker start qdrant`
+
+
 ---
 ### Instalación de librerías
 
@@ -56,11 +59,10 @@ En este notebook usaremos VectorSearch con Qdrant [vector_search_qdrant.ipynb]()
       - Payload(opcional): Es un objeto que permite almacenar los metadatos o info estructurada. Su uso principal es para filtros o para ordenar resultados de la búsqueda. 
       Tipo de datos que puede almacenar: boolean, fechas, ubicaciones geográficas o objetos anidados.
 
-   Entonces para resumir un punto se define como P(ID, Vector, Payload)
+   Entonces para resumir un punto se define como **P(ID, Vector, Payload)**
 
 2. Collection ( Colección) 
    - Definición: Una colección es un conjunto de puntos que pertenecen a un dominio, problema o contexto de un negocio (sistema de recomendación de películas).
-
 
       Piensa en una colección como un contenedor donde se almacenan y gestionan varios puntos y dentro de este contenedor puedes realizar las búsquedas semánticas.
 
@@ -75,7 +77,7 @@ En este notebook usaremos VectorSearch con Qdrant [vector_search_qdrant.ipynb]()
    - Sparse Vector (vectores disperos): se caracterizan por tener valores 0 en mayoría de posiciones del vector. Solo algunos índices tienen valor significativo. <p>
    Ej de uso: cuando se tiene una alta dimensionalidad pero muy pocos elementos aportan valor.
 
-   - Multivectors: permite almacenar y trabajar con múltiples vectores para un solo puno.
+   - Multivectors: permite almacenar y trabajar con múltiples vectores para un solo punto.
 
    - Named vectors: tienen un nombre asignado.   
 

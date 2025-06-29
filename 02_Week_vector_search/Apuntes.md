@@ -13,17 +13,16 @@ Permite realizar la búsqueda más rápida.
 - Capturan las características semánticas (el significado de un texto)
 
 ## 2. Vector Search
-Mide la distancia entre el vector del query y los vectores de los documentos.
+Técnica de búsqueda que mide la distancia entre el vector del query y los vectores de los documentos.
 A diferencia de la técnica TF-IDF que buscaba por coincidencia de palabras. 
 Modulo 1, se especificaba los campos claves.
 Por vector search se busca por **proximidad de vectores**.
 
-Ventaja sobre **TF-IDF**
-En vez de realizar búsqueda indicando las palabras exactas, Vector search permite comprender el 
-significado de los documentos sin importan si son entre mismo tipo(imagen, video, texto) o ente diferentes.
+Ventaja sobre **TF-IDF** <p>
+En vez de realizar búsqueda indicando las palabras exactas, Vector search permite comprender el significado de los documentos sin importan si son del mismo tipo de data(imagen, video, texto) o ente diferentes tipos de datos.
 
-Hablar: sobre las dificultades de los vectores
-La alta dimensionalidad, hace que los vectores sean pesados 
+Tip: sobre las dificultades de los vectores
+La alta dimensionalidad, hace que los vectores sean pesados y por ello es necesario un sistema de almacenamiento => *Qdrant*
 
 ## 3. Qdrant
 Qdrant es una base de datos vectorial open-source especializada en almacenamiento y búsqueda de vectores.
@@ -37,8 +36,13 @@ Ventajas como Vector Database:
 
 ### FLujo 
 El flujo típico es:
+Previo:
+1. Entender la naturaleza de la data
+2. Seleccionar el modelo más adecuado de embedding
+
+Con Qdrant:
 1. Generar embeddings
-2. Crear un índice en Qdrant
+2. Crear un **índice** en Qdrant
 3. Insertar vectores + metadatos
 4. Hacer consultas de similaridad
 
@@ -56,9 +60,10 @@ Notas:
     - Almacenamiento del dataset a trabajar
     - Análisis de dataset: estructura, tipo de data, etc
     - Se definen los campos para semantic search y para almacenar en la metadata
-    - Evaluación de modelos de embeddings en base a los campos definidos
+    - Evaluación y selección de modelo de embedding en base a los campos definidos
     - Configuración con Qdrant
-        - Se crea la colección
+        1. Se crea la colección
+        2. Creación e inserción de puntos en la colección
 
 3. 
 
