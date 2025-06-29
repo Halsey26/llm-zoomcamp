@@ -64,7 +64,8 @@ Notas:
     - Configuración con Qdrant
         1. Se crea la colección
         2. Creación e inserción de puntos en la colección
-
+        3. Visualizamos la colección actualizada en http://127.0.0.1:6333/dashboard
+    - 
 3. 
 
 ## Recursos
@@ -76,3 +77,4 @@ Notas:
 - [Documentación Qdrant](https://qdrant.tech/documentation/concepts/)
 - [Documentación FastEmbed](https://github.com/qdrant/fastembed)
 - [Documentación del modelo usado para embedding](https://huggingface.co/jinaai/jina-embeddings-v2-small-en)
+- [What is a vector database?](https://qdrant.tech/articles/what-is-a-vector-database/)
