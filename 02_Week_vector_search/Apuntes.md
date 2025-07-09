@@ -86,3 +86,5 @@ Notas:
 - [What is a vector database?](https://qdrant.tech/articles/what-is-a-vector-database/)
 - [Filtros Qdrant](https://qdrant.tech/articles/vector-search-filtering/)
 - [Vector Search manuals](https://qdrant.tech/articles/vector-search-manuals/)
+- [Building a RAG System with GPT-4: A Step-by-Step Guide](https://medium.com/@mayssamayel4/building-a-rag-system-with-gpt-4-a-step-by-step-guide-291711342f0d)
+- [Vector Search](https://lancedb.github.io/lancedb/concepts/vector_search/)

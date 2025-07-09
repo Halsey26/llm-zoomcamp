@@ -26,8 +26,8 @@ Este repositorio contiene el seguimiento de tareas, notebooks y apuntes desarrol
 | Semana | Estado | Descripción |
 |--------|--------|-------------|
 | Semana 1 | ✅ Completado | Introducción a LLMs y sistemas RAG, búsqueda tradicional, integración básica con GPT |
-| Semana 2 | 🔄 En progreso | Búsqueda vectorial con Qdrant y embeddings |
-| Semana 3 | 🔒 Por iniciar | Evaluación de resultados de búsqueda y generación |
+| Semana 2 | ✅ Completado | Búsqueda vectorial con Qdrant y embeddings |
+| Semana 3 | 🔄 En progreso | Evaluación de resultados de búsqueda y generación |
 | Semana 4 | 🔒 Por iniciar | Técnicas de monitoreo y feedback |
 | Semana 5 | 🔒 Por iniciar | Mejores prácticas: reranking, búsqueda híbrida |
 | Semana 6–10 | 🔒 Por iniciar | Proyectos finales (bonus + integrador) |
