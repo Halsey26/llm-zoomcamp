@@ -1,4 +1,4 @@
-# 📘 Apuntes – Semana 2
+# 📘 Apuntes – Módulo 2
 
 ## 0. Conceptos claves
 
