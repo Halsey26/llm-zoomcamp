@@ -10,7 +10,8 @@
     - [Conceptos previos](https://github.com/Halsey26/llm-zoomcamp/blob/main/03_Mod_Evaluation/Apuntes.md) 
     - [Métricas de evaluación](https://github.com/Halsey26/llm-zoomcamp/blob/main/03_Mod_Evaluation/metricas_evaluacion.md)
 2. **Evaluación de búsqueda**
-    - Obtención del Ground Truth Data. 
-    - 
+    - Obtención del Ground Truth Data. [ground-truth-data](https://github.com/Halsey26/llm-zoomcamp/blob/main/03_Mod_Evaluation/search_evaluation/ground-truth-data.ipynb)
+    - Evaluación del texto. [evaluacion_texto]()
 3. **Evaluación sistema RAG**
+    - 
 
