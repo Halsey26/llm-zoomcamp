@@ -46,15 +46,15 @@ Con Qdrant:
 3. Insertar vectores + metadatos
 4. Hacer consultas de similaridad
 
-
 Notas:
 - realizar comparación con tf-idf
-- 
 
-### Pasos realizados en este módulo
+---
+## Pasos realizados en este módulo
+0. Conceptos Claves (embedding, vector search)
 1. Setup de Qdrant en un contenedor docker e instalación de librerías en el enviorement. Con un resumen de conceptos previos. [set_up_qdrant.md](https://github.com/Halsey26/llm-zoomcamp/blob/main/02_Week_vector_search/set_up_qdrant.md)
 
-2. Primeros pasos para utilizar Vector Search con Qdrant [vector_search_qdrant.ipynb]()
+2. Primeros pasos para utilizar Vector Search con Qdrant [vector_search_qdrant.ipynb](https://github.com/Halsey26/llm-zoomcamp/blob/main/02_Mod_vector_search/vector_search_qdrant.ipynb)
     - Importanción de librerias.
     - Creación del cliente con qdrant.
     - Almacenamiento del dataset a trabajar.
@@ -67,9 +67,9 @@ Notas:
         * Visualizamos la colección actualizada en Qdrant http://127.0.0.1:6333/dashboard
     - Búsqueda por similitud Qdrant.
     - Búsqueda por similitud usando filtros.
-3. RAG con Vector Search
+3. RAG con Vector Search [rag_vector_search](https://github.com/Halsey26/llm-zoomcamp/blob/main/02_Mod_vector_search/rag_vector_search.ipynb)
 
-
+[Homework](https://github.com/Halsey26/llm-zoomcamp/blob/main/02_Mod_vector_search/Homework2.ipynb)
 
 ## Recursos
 

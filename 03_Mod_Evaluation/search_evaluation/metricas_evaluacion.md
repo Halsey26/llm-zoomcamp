@@ -12,7 +12,7 @@
 
 3. **Mean Average Precision (MAP)**:
    - Computes the average precision for each query and then averages these values over all queries.
-   - Formula: `MAP = (1 / |Q|) * Σ (Average Precision(q))` for q in Q
+   - Formula:  `MAP = (1 / |Q|) * Σ (Average Precision(q))` for q in Q
 
 4. **Normalized Discounted Cumulative Gain (NDCG)**:
    - Measures the usefulness, or gain, of a document based on its position in the result list.
