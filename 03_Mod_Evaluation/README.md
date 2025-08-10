@@ -10,5 +10,5 @@
         Se genera un dataset con 5 preguntas por documento usando un modelo LLM.
     - Evaluación del texto. [evaluacion_texto](https://github.com/Halsey26/llm-zoomcamp/blob/main/03_Mod_Evaluation/search_evaluation/evaluacion_texto.ipynb)
 3. **Evaluación sistema RAG**
-    - d
+    - 
   
