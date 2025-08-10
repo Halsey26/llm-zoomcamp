@@ -8,8 +8,7 @@ Este módulo abarca la importancia de evaluar resultados de recuperación de inf
 ##  Ground Truth
 Es el conjunto de datos "correctos" o esperados que usamos como referencia para evaluar si es sistema está funcionando bien.
 
-En el contexto de Retrieval:
-Ground Truth significa
+En el contexto de Retrieval, Ground Truth contiene:
 - Una query (pregunta)
 - Conjunto de documentos que pueden ser recuperados (respuestas más relevantes)
 
@@ -29,7 +28,7 @@ Entonces,
 - Porque se necesita una forma objetiva para comparar el performance entre técnicas.
 
 **¿Qué necesitamos para evaluar?** <p>
-Un conjunto de datos con **ground truth** (también llamado gold standard) y [métricas de evaluación]()
+Un conjunto de datos con **ground truth** (también llamado gold standard) y [métricas de evaluación](https://github.com/Halsey26/llm-zoomcamp/blob/main/03_Mod_Evaluation/search_evaluation/metricas_evaluacion.md)
 
 **¿Cómo se usa el Ground Truth?**
 - Ejecutas el sistema de búsqueda escogido.
